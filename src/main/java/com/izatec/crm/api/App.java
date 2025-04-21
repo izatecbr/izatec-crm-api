@@ -11,6 +11,6 @@ public class App implements ApplicationRunner {
     private ClienteService service;
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        service.criarClientes();
+        //service.criarClientes();
     }
 }
